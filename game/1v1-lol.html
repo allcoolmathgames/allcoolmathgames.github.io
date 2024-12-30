@@ -14,8 +14,96 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><img src="/assets/img/logo.png" alt="Classroom 6x"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="/category/trending.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-fire">
+                                    <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"></path>
+                                </svg><span>Trending</span></a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/category/latest.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                </svg><span>Latest</span></a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/category/features.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-trophy-fill">
+                                    <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"></path>
+                                </svg><span>Features</span></a></li>
+                    </ul>
+                    <div class="search-container"><input type="text" id="search-input" class="search-input" placeholder="Search 538 / 567 games..."><button id="search-button" class="btn search-button" type="button"><i class="fa fa-search"></i></button></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="nav-categories">
+            <div class="container">
+                <nav class="greedy">
+                    <ul class="links list-categories">
+                        
+    
+        <li><a href="/category/2-player.html">2-Player</a></li>
+    
 
-               <div class="content-wrapper">
+    
+        <li><a href="/category/3d.html">3D</a></li>
+    
+
+    
+        <li><a href="/category/adventure.html">Adventure</a></li>
+    
+
+    
+        <li><a href="/category/car.html">Car</a></li>
+    
+
+    
+        <li><a href="/category/moto.html">Moto</a></li>
+    
+
+    
+        <li><a href="/category/multiplayer.html">Multiplayer</a></li>
+    
+
+    
+        <li><a href="/category/puzzle.html">Puzzle</a></li>
+    
+
+    
+        <li><a href="/category/racing.html">Racing</a></li>
+    
+
+    
+        <li><a href="/category/running.html">Running</a></li>
+    
+
+    
+        <li><a href="/category/shooting.html">Shooting</a></li>
+    
+
+    
+        <li><a href="/category/skill.html">Skill</a></li>
+    
+
+    
+        <li><a href="/category/sports.html">Sports</a></li>
+    
+
+    
+        <li><a href="/category/stickman.html">Stickman</a></li>
+    
+
+    
+
+    
+
+    
+
+                    </ul><button class="btn" type="button">MORE</button>
+                    <ul class="hidden-links hidden"></ul>
+                </nav>
+            </div>
+        </div>
+        <div class="content-wrapper">
             <div class="container">
                 <div class="game-container">
     <div class="row">
@@ -23,13 +111,13 @@
             <div class="game-player">
                 <div class="game-iframe-container" style="padding-top: 56.25%;">
                     
-    <iframe class="game-iframe" id="gameFrame" src="https://allcoolmathgames.github.io/game/1v1-lol.html" style="background:black;" width="100%" height="600" scrolling="no" frameborder="0"></iframe>
+    <iframe class="game-iframe" id="gameFrame" src="https://classroom6x.gitlab.io/1v1-lol/" style="background:black;" width="100%" height="600" scrolling="no" frameborder="0"></iframe>
 
 
                 </div>
                 <div class="single-info-container">
-                    <div class="header-left"><img width="40" height="40" src="/assets/img/thumbs/classroom6x/1v1-lol.png">
-                        <h1 class="single-title">1V1 LOL</h1>
+                    <div class="header-left"><img width="40" height="40" src="https://allcoolmathgames.github.io/assets/img/thumbs/classroom6x/snakes-and-ladders.png">
+                        <h1 class="single-title" style="color: #FFFFFF;">SNAKES AND LADDERS</h1>
                     </div>
                     <div class="action-btn">
                         <div class="stats-vote"><i class="fa fa-thumbs-up"></i><i class="fa fa-thumbs-down"></i><i class="fa fa-bug"></i>
@@ -38,6 +126,62 @@
                     </div>
                 </div>
             </div>
+        <div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #212234;
+        }
+        ul {
+            margin-left: 20px;
+            list-style: disc;
+        }
+    </style>
+
+<body>
+    <h1>Snakes and Ladders: A Timeless Game Reimagined for the Digital Age</h1>
+    <p>Ever wanted to enjoy the classic game of Snakes and Ladders without needing a physical board or dice? Whether at school, work, or just relaxing at home, the unblocked version of Snakes and Ladders lets you relive this beloved childhood favorite anytime and anywhere. Simple to play yet endlessly entertaining, it’s perfect for a quick break or a longer gaming session with friends.</p>
+
+    <h2>What is Snakes and Ladders?</h2>
+    <p>Snakes and Ladders is a classic board game that dates back centuries and is known for its exciting mix of luck and strategy. The goal is simple: race your token to the finish line by rolling dice. Along the way, ladders will boost you closer to victory, while snakes will send you sliding back down the board. The game is a rollercoaster of ups and downs, making every turn unpredictable and exciting.</p>
+
+    <h2>Why Play Snakes and Ladders Online?</h2>
+    <p>The unblocked online version of Snakes and Ladders brings the original game's charm to your screen. You can play solo, compete with friends, or even challenge online players, all without worrying about network restrictions. It’s a fun and accessible way to enjoy this timeless game, whether you’re on a Chromebook, school computer, or work device.</p>
+
+    <h2>How to Play Snakes and Ladders Unblocked</h2>
+    <p>Playing Snakes and Ladders online is easy and hassle-free:</p>
+    <ul>
+        <li>Search for "Snakes and Ladders unblocked" to find a reliable game hosting site.</li>
+        <li>Open the game, choose your mode (solo or multiplayer), and start rolling the dice.</li>
+        <li>Navigate the board, climbing ladders and avoiding snakes, all while racing to the finish.</li>
+    </ul>
+    <p>With no downloads required, you can jump into the game instantly, making it ideal for quick gaming breaks.</p>
+
+    <h2>Why is Snakes and Ladders Still So Popular?</h2>
+    <ul>
+        <li><strong>Simple Yet Engaging:</strong> The rules are easy to grasp, making it perfect for players of all ages.</li>
+        <li><strong>Quick Matches:</strong> Games are short, allowing you to enjoy multiple rounds during a break.</li>
+        <li><strong>Thrilling Twists:</strong> The unpredictable nature of snakes and ladders keeps every match exciting.</li>
+        <li><strong>Nostalgia:</strong> Playing Snakes and Ladders brings back fond memories of childhood fun.</li>
+    </ul>
+
+    <h2>The Benefits of Playing Snakes and Ladders Online</h2>
+    <ul>
+        <li><strong>Accessible Anywhere:</strong> Unblocked versions allow you to play on restricted networks at school or work.</li>
+        <li><strong>Multiplayer Fun:</strong> Challenge friends or family and share the excitement of close matches.</li>
+        <li><strong>Stress Relief:</strong> The game’s casual pace and familiar mechanics make it a great way to unwind.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Whether you’re feeling nostalgic or simply want a fun and lighthearted game to pass the time, Snakes and Ladders is the perfect choice. The unblocked version ensures you can enjoy the game anywhere, without any interruptions. So, roll the dice, climb those ladders, and dodge the snakes to victory! Search for Snakes and Ladders unblocked and start playing today.</p>
+</body>
+	</div>   
+		
             <h3 class="item-title"><i class="fa fa-thumbs-up"></i><span>SIMILAR GAMES</span></h3>
             <div class="row" id="section-similar-games">
                 
@@ -59,6 +203,19 @@
     
     
     
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/12-minibattles.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/12-minibattles.png">
+                    <div class="hover-info"><span>12 Minibattles</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -113,6 +270,19 @@
     
     
     
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/4th-and-goal-2022.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/4th-and-goal-2022.png">
+                    <div class="hover-info"><span>4th And Goal 2022</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -131,33 +301,19 @@
     
     
     
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/8-ball-pool.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/8-ball-pool.png">
+                    <div class="hover-info"><span>8 Ball Pool</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -234,10 +390,10 @@
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/archery-world-tour.html">
+            <a href="/game/among-us.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/archery-world-tour.png">
-                    <div class="hover-info"><span>Archery World Tour</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/among-us.png">
+                    <div class="hover-info"><span>Among Us</span></div>
                 </div>
             </div>
             </a>
@@ -324,6 +480,19 @@
     
     
     
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/basket-bros.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/basket-bros.png">
+                    <div class="hover-info"><span>Basket Bros</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -351,6 +520,19 @@
     
     
     
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/basket-swooshes.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/basket-swooshes.png">
+                    <div class="hover-info"><span>Basket Swooshes</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -378,6 +560,63 @@
     
     
     
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/basketball-stars.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/basketball-stars.png">
+                    <div class="hover-info"><span>Basketball Stars</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/battle-wheels.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/battle-wheels.png">
+                    <div class="hover-info"><span>Battle Wheels</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/bearsus.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/bearsus.png">
+                    <div class="hover-info"><span>Bearsus</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -396,15 +635,19 @@
     
     
     
-
-    
-    
-    
-    
-    
-    
-    
-    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/big-shot-boxing.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/big-shot-boxing.png">
+                    <div class="hover-info"><span>Big Shot Boxing</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -454,10 +697,10 @@
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/blocky-cars.html">
+            <a href="/game/bitlife.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blocky-cars.png">
-                    <div class="hover-info"><span>Blocky Cars</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/bitlife.png">
+                    <div class="hover-info"><span>Bitlife</span></div>
                 </div>
             </div>
             </a>
@@ -499,6 +742,63 @@
     
     
     
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/blumgi-ball.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blumgi-ball.png">
+                    <div class="hover-info"><span>Blumgi Ball</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/blumgi-castle.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blumgi-castle.png">
+                    <div class="hover-info"><span>Blumgi Castle</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/blumgi-rocket.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blumgi-rocket.png">
+                    <div class="hover-info"><span>Blumgi Rocket</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -548,6 +848,19 @@
     
     
     
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/boxing-physics-2.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/boxing-physics-2.png">
+                    <div class="hover-info"><span>Boxing Physics 2</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -668,19 +981,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/bullet-force.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/bullet-force.png">
-                    <div class="hover-info"><span>Bullet Force</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -690,6 +990,19 @@
     
     
     
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/bumper-cars-soccer.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/bumper-cars-soccer.png">
+                    <div class="hover-info"><span>Bumper Cars Soccer</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -820,14 +1133,281 @@
     
     
     
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
         
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/cat-gunner-super-zombie-shoot.html">
+            <a href="/game/chicken-merge.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cat-gunner-super-zombie-shoot.png">
-                    <div class="hover-info"><span>Cat Gunner: Super Zombie Shoot</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/chicken-merge.png">
+                    <div class="hover-info"><span>Chicken Merge</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/city-car-driving-stunt-master.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/city-car-driving-stunt-master.png">
+                    <div class="hover-info"><span>City Car Driving: Stunt Master</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/cluster-rush.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cluster-rush.png">
+                    <div class="hover-info"><span>Cluster Rush</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/cookie-clicker.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cookie-clicker.png">
+                    <div class="hover-info"><span>Cookie Clicker</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/crazy-cars.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/crazy-cars.png">
+                    <div class="hover-info"><span>Crazy Cars</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/crossy-road.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/crossy-road.png">
+                    <div class="hover-info"><span>Crossy Road</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/cyber-cars-punk-racing.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cyber-cars-punk-racing.png">
+                    <div class="hover-info"><span>Cyber Cars Punk Racing</span></div>
                 </div>
             </div>
             </a>
@@ -968,24 +1548,19 @@
     
     
     
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/dreadhead-parkour.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/dreadhead-parkour.png">
+                    <div class="hover-info"><span>Dreadhead Parkour</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
 
     
     
@@ -1008,10 +1583,32 @@
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/cubito-mayhem.html">
+            <a href="/game/drift-hunters.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cubito-mayhem.png">
-                    <div class="hover-info"><span>Cubito Mayhem</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/drift-hunters.png">
+                    <div class="hover-info"><span>Drift Hunters</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
+            <a href="/game/drive-mad.html">
+            <div class="list-game">
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/drive-mad.png">
+                    <div class="hover-info"><span>Drive Mad</span></div>
                 </div>
             </div>
             </a>
@@ -1089,131 +1686,14 @@
     
     
     
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
         
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/drunken-duel.html">
+            <a href="/game/dunkers.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/drunken-duel.png">
-                    <div class="hover-info"><span>Drunken Duel</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/dunkers.png">
+                    <div class="hover-info"><span>Dunkers</span></div>
                 </div>
             </div>
             </a>
@@ -1282,248 +1762,14 @@
     
     
     
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
         
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/funny-shooter-2.html">
+            <a href="/game/escaping-the-prison.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/funny-shooter-2.png">
-                    <div class="hover-info"><span>Funny Shooter 2</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/escaping-the-prison.png">
+                    <div class="hover-info"><span>Escaping The Prison</span></div>
                 </div>
             </div>
             </a>
@@ -1538,103 +1784,14 @@
     
     
     
-
-    
-    
-    
-    
-    
-    
-    
-    
         
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/g-switch-3.html">
+            <a href="/game/eugenes-life.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/g-switch-3.png">
-                    <div class="hover-info"><span>G Switch 3</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/getaway-shootout.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/getaway-shootout.png">
-                    <div class="hover-info"><span>Getaway Shootout</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/gobble.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/gobble.png">
-                    <div class="hover-info"><span>Gobble</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/eugenes-life.png">
+                    <div class="hover-info"><span>Eugenes Life</span></div>
                 </div>
             </div>
             </a>
@@ -1725,10 +1882,10 @@
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/gun-mayhem-3.html">
+            <a href="/game/flappy-bird-origin.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/gun-mayhem-3.png">
-                    <div class="hover-info"><span>Gun Mayhem 3</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/flappy-bird-origin.png">
+                    <div class="hover-info"><span>Flappy Bird Origin</span></div>
                 </div>
             </div>
             </a>
@@ -1747,54 +1904,10 @@
         
         
         <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/gun-mayhem.html">
+            <a href="/game/fleeing-the-complex.html">
             <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/gun-mayhem.png">
-                    <div class="hover-info"><span>Gun Mayhem</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
-
-    
-    
-    
-    
-    
-    
-    
-    
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/gunspin.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/gunspin.png">
-                    <div class="hover-info"><span>Gunspin</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
-
-    
-    
-    
-    
-    
-    
-    
-    
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/hammer-2-reloaded.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/hammer-2-reloaded.png">
-                    <div class="hover-info"><span>Hammer 2 Reloaded</span></div>
+                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/fleeing-the-complex.png">
+                    <div class="hover-info"><span>Fleeing The Complex</span></div>
                 </div>
             </div>
             </a>
@@ -2025,19 +2138,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/jetpack-joyride.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/jetpack-joyride.png">
-                    <div class="hover-info"><span>Jetpack Joyride</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2092,19 +2192,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/leader-strike.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/leader-strike.png">
-                    <div class="hover-info"><span>Leader Strike</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2231,19 +2318,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/masked-forces.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/masked-forces.png">
-                    <div class="hover-info"><span>Masked Forces</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2334,19 +2408,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/mob-city.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/mob-city.png">
-                    <div class="hover-info"><span>Mob City</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2545,19 +2606,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/orbital-survival.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/orbital-survival.png">
-                    <div class="hover-info"><span>Orbital Survival</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2711,19 +2759,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/pixel-gun-survival.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/pixel-gun-survival.png">
-                    <div class="hover-info"><span>Pixel Gun Survival</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2733,19 +2768,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/pixwars-2.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/pixwars-2.png">
-                    <div class="hover-info"><span>Pixwars 2</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2818,19 +2840,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/puppet-master.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/puppet-master.png">
-                    <div class="hover-info"><span>Puppet Master</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2849,19 +2858,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/raft-wars-2.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/raft-wars-2.png">
-                    <div class="hover-info"><span>Raft Wars 2</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2871,19 +2867,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/raft-wars-multiplayer.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/raft-wars-multiplayer.png">
-                    <div class="hover-info"><span>Raft Wars Multiplayer</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2893,19 +2876,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/raft-wars.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/raft-wars.png">
-                    <div class="hover-info"><span>Raft Wars</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -2951,19 +2921,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/recoil.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/recoil.png">
-                    <div class="hover-info"><span>Recoil</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -3036,19 +2993,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/rooftop-snipers-2.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/rooftop-snipers-2.png">
-                    <div class="hover-info"><span>Rooftop Snipers 2</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -3058,19 +3002,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/rooftop-snipers.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/rooftop-snipers.png">
-                    <div class="hover-info"><span>Rooftop Snipers</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -3116,19 +3047,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/rusher-crusher.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/rusher-crusher.png">
-                    <div class="hover-info"><span>Rusher Crusher</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -3165,19 +3083,6 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/shoot-stickman.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/shoot-stickman.png">
-                    <div class="hover-info"><span>Shoot Stickman</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
 
     
     
@@ -3313,19 +3218,258 @@
     
     
     
-        
-        
-        
-        <div class="col-4 col-sm-3 col-md-1-5 item-grid">
-            <a href="/game/sniper-gun-shooting.html">
-            <div class="list-game">
-                <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/sniper-gun-shooting.png">
-                    <div class="hover-info"><span>Sniper Gun Shooting</span></div>
-                </div>
-            </div>
-            </a>
-        </div>
-  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
@@ -5629,92 +5773,20 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
     
         
             
             
                 <div class="col-4 p-0">
-                    <a href="/game/archery-world-tour.html">
+                    <a href="/game/12-minibattles.html">
                         <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/archery-world-tour.png">
-                                <div class="hover-info"><span>Archery World Tour</span></div>
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/12-minibattles.png">
+                                <div class="hover-info"><span>12 Minibattles</span></div>
                             </div>
                         </div>
                     </a>
@@ -5726,7 +5798,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -5734,79 +5810,17 @@
     
         
     
-
-    
         
     
 
     
         
     
-
-    
         
     
 
     
         
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
     
         
     
@@ -5816,10 +5830,165 @@
             
             
                 <div class="col-4 p-0">
-                    <a href="/game/blocky-cars.html">
+                    <a href="/game/4th-and-goal-2022.html">
                         <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blocky-cars.png">
-                                <div class="hover-info"><span>Blocky Cars</span></div>
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/4th-and-goal-2022.png">
+                                <div class="hover-info"><span>4th And Goal 2022</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/8-ball-pool.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/8-ball-pool.png">
+                                <div class="hover-info"><span>8 Ball Pool</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/among-us.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/among-us.png">
+                                <div class="hover-info"><span>Among Us</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/basket-bros.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/basket-bros.png">
+                                <div class="hover-info"><span>Basket Bros</span></div>
                             </div>
                         </div>
                     </a>
@@ -5831,7 +6000,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -5839,7 +6012,269 @@
     
         
     
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/basket-swooshes.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/basket-swooshes.png">
+                                <div class="hover-info"><span>Basket Swooshes</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
 
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/basketball-stars.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/basketball-stars.png">
+                                <div class="hover-info"><span>Basketball Stars</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/basketball-stars.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/basketball-stars.png">
+                                <div class="hover-info"><span>Basketball Stars</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/battle-wheels.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/battle-wheels.png">
+                                <div class="hover-info"><span>Battle Wheels</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/battle-wheels.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/battle-wheels.png">
+                                <div class="hover-info"><span>Battle Wheels</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+
+    
+        
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/bearsus.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/bearsus.png">
+                                <div class="hover-info"><span>Bearsus</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/big-shot-boxing.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/big-shot-boxing.png">
+                                <div class="hover-info"><span>Big Shot Boxing</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/bitlife.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/bitlife.png">
+                                <div class="hover-info"><span>Bitlife</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/blumgi-ball.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blumgi-ball.png">
+                                <div class="hover-info"><span>Blumgi Ball</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/blumgi-ball.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blumgi-ball.png">
+                                <div class="hover-info"><span>Blumgi Ball</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+
+    
+        
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/blumgi-castle.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blumgi-castle.png">
+                                <div class="hover-info"><span>Blumgi Castle</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/blumgi-rocket.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blumgi-rocket.png">
+                                <div class="hover-info"><span>Blumgi Rocket</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
     
         
     
@@ -5860,7 +6295,24 @@
             
         
     
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/blumgi-slime.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/blumgi-slime.png">
+                                <div class="hover-info"><span>Blumgi Slime</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
 
+    
+        
     
         
     
@@ -5868,7 +6320,30 @@
     
         
     
+        
+    
 
+    
+        
+    
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/boxing-physics-2.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/boxing-physics-2.png">
+                                <div class="hover-info"><span>Boxing Physics 2</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
+
+    
+        
     
         
     
@@ -5876,15 +6351,17 @@
     
         
     
-
-    
         
     
 
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -5905,11 +6382,30 @@
             
         
     
+        
+            
+            
+                <div class="col-4 p-0">
+                    <a href="/game/brain-test-tricky-puzzles.html">
+                        <div class="list-game">
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/brain-test-tricky-puzzles.png">
+                                <div class="hover-info"><span>Brain Test: Tricky Puzzles</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    
 
     
         
     
+        
+    
 
+    
+        
     
         
             
@@ -5929,6 +6425,8 @@
 
     
         
+    
+        
             
             
                 <div class="col-4 p-0">
@@ -5946,13 +6444,21 @@
 
     
         
+    
+        
+    
+
+    
+        
+    
+        
             
             
                 <div class="col-4 p-0">
-                    <a href="/game/bullet-force.html">
+                    <a href="/game/bumper-cars-soccer.html">
                         <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/bullet-force.png">
-                                <div class="hover-info"><span>Bullet Force</span></div>
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/bumper-cars-soccer.png">
+                                <div class="hover-info"><span>Bumper Cars Soccer</span></div>
                             </div>
                         </div>
                     </a>
@@ -5964,11 +6470,11 @@
     
         
     
-
-    
         
     
 
+    
+        
     
         
             
@@ -5989,7 +6495,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -5997,7 +6507,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -6005,7 +6519,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -6013,7 +6531,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -6021,28 +6543,11 @@
     
         
     
-
-    
         
     
 
     
         
-            
-            
-                <div class="col-4 p-0">
-                    <a href="/game/cat-gunner-super-zombie-shoot.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cat-gunner-super-zombie-shoot.png">
-                                <div class="hover-info"><span>Cat Gunner: Super Zombie Shoot</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
-        
-    
-
     
         
     
@@ -6050,7 +6555,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -6058,59 +6567,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
     
         
     
@@ -6120,10 +6581,10 @@
             
             
                 <div class="col-4 p-0">
-                    <a href="/game/cubito-mayhem.html">
+                    <a href="/game/chicken-merge.html">
                         <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cubito-mayhem.png">
-                                <div class="hover-info"><span>Cubito Mayhem</span></div>
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/chicken-merge.png">
+                                <div class="hover-info"><span>Chicken Merge</span></div>
                             </div>
                         </div>
                     </a>
@@ -6131,83 +6592,17 @@
             
         
     
-
-    
         
     
 
     
         
     
-
-    
         
     
 
     
         
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
     
         
     
@@ -6217,10 +6612,10 @@
             
             
                 <div class="col-4 p-0">
-                    <a href="/game/drunken-duel.html">
+                    <a href="/game/city-car-driving-stunt-master.html">
                         <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/drunken-duel.png">
-                                <div class="hover-info"><span>Drunken Duel</span></div>
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/city-car-driving-stunt-master.png">
+                                <div class="hover-info"><span>City Car Driving: Stunt Master</span></div>
                             </div>
                         </div>
                     </a>
@@ -6228,131 +6623,11 @@
             
         
     
-
-    
         
     
 
     
         
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
-    
-        
-    
-
     
         
     
@@ -6362,10 +6637,10 @@
             
             
                 <div class="col-4 p-0">
-                    <a href="/game/funny-shooter-2.html">
+                    <a href="/game/cluster-rush.html">
                         <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/funny-shooter-2.png">
-                                <div class="hover-info"><span>Funny Shooter 2</span></div>
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cluster-rush.png">
+                                <div class="hover-info"><span>Cluster Rush</span></div>
                             </div>
                         </div>
                     </a>
@@ -6373,7 +6648,17 @@
             
         
     
+        
+    
 
+    
+        
+    
+        
+    
+
+    
+        
     
         
     
@@ -6383,10 +6668,10 @@
             
             
                 <div class="col-4 p-0">
-                    <a href="/game/g-switch-3.html">
+                    <a href="/game/cookie-clicker.html">
                         <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/g-switch-3.png">
-                                <div class="hover-info"><span>G Switch 3</span></div>
+                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/cookie-clicker.png">
+                                <div class="hover-info"><span>Cookie Clicker</span></div>
                             </div>
                         </div>
                     </a>
@@ -6394,15 +6679,11 @@
             
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6411,36 +6692,10 @@
         
             
             
-                <div class="col-4 p-0">
-                    <a href="/game/getaway-shootout.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/getaway-shootout.png">
-                                <div class="hover-info"><span>Getaway Shootout</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
-        
-    
-
-    
         
-    
-
     
         
-            
             
-                <div class="col-4 p-0">
-                    <a href="/game/gobble.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/gobble.png">
-                                <div class="hover-info"><span>Gobble</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
     
@@ -6448,15 +6703,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6464,91 +6715,47 @@
     
         
     
-
-    
+        
+            
+            
         
     
 
     
         
-    
-
     
         
     
 
     
         
-            
-            
-                <div class="col-4 p-0">
-                    <a href="/game/gun-mayhem-3.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/gun-mayhem-3.png">
-                                <div class="hover-info"><span>Gun Mayhem 3</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
+    
         
     
 
     
         
-            
-            
-                <div class="col-4 p-0">
-                    <a href="/game/gun-mayhem.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/gun-mayhem.png">
-                                <div class="hover-info"><span>Gun Mayhem</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
+    
         
     
 
     
         
-            
+    
+        
             
-                <div class="col-4 p-0">
-                    <a href="/game/gunspin.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/gunspin.png">
-                                <div class="hover-info"><span>Gunspin</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
     
 
     
         
-            
-            
-                <div class="col-4 p-0">
-                    <a href="/game/hammer-2-reloaded.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/hammer-2-reloaded.png">
-                                <div class="hover-info"><span>Hammer 2 Reloaded</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
+    
         
     
 
     
         
-    
-
     
         
     
@@ -6556,15 +6763,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6572,15 +6775,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6588,15 +6787,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6604,15 +6799,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6620,15 +6811,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6636,7 +6823,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -6645,35 +6836,22 @@
         
             
             
-                <div class="col-4 p-0">
-                    <a href="/game/jetpack-joyride.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/jetpack-joyride.png">
-                                <div class="hover-info"><span>Jetpack Joyride</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
+            
+            
+        
     
         
     
@@ -6681,24 +6859,17 @@
     
         
             
+            
+        
+    
+        
             
-                <div class="col-4 p-0">
-                    <a href="/game/leader-strike.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/leader-strike.png">
-                                <div class="hover-info"><span>Leader Strike</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
     
 
     
         
-    
-
     
         
     
@@ -6706,15 +6877,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6722,15 +6889,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -6738,165 +6901,131 @@
     
         
     
-
-    
         
     
 
+    
+        
     
         
     
 
     
         
-            
+    
+        
             
-                <div class="col-4 p-0">
-                    <a href="/game/masked-forces.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/masked-forces.png">
-                                <div class="hover-info"><span>Masked Forces</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
     
 
     
         
-            
             
-                <div class="col-4 p-0">
-                    <a href="/game/mob-city.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/mob-city.png">
-                                <div class="hover-info"><span>Mob City</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
     
-
-    
         
     
 
     
         
-    
-
+            
+            
+        
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
+            
+            
+        
     
         
     
@@ -6905,71 +7034,64 @@
         
             
             
-                <div class="col-4 p-0">
-                    <a href="/game/orbital-survival.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/orbital-survival.png">
-                                <div class="hover-info"><span>Orbital Survival</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
+            
+            
+        
     
         
+            
+            
+        
     
 
     
         
-    
-
+            
+            
+        
     
         
+            
+            
+        
     
 
     
         
-    
-
     
+        
+            
+            
         
     
 
     
         
     
-
-    
         
     
 
+    
+        
     
         
     
@@ -6977,7 +7099,11 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
@@ -6986,32 +7112,10 @@
         
             
             
-                <div class="col-4 p-0">
-                    <a href="/game/pixel-gun-survival.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/pixel-gun-survival.png">
-                                <div class="hover-info"><span>Pixel Gun Survival</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
         
-    
-
     
         
-            
             
-                <div class="col-4 p-0">
-                    <a href="/game/pixwars-2.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/pixwars-2.png">
-                                <div class="hover-info"><span>Pixwars 2</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
     
@@ -7019,65 +7123,41 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
-    
+            
+            
         
-    
-
     
         
     
 
     
         
+            
             
+        
+    
+        
             
-                <div class="col-4 p-0">
-                    <a href="/game/puppet-master.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/puppet-master.png">
-                                <div class="hover-info"><span>Puppet Master</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
     
 
     
         
-    
-
     
         
-            
             
-                <div class="col-4 p-0">
-                    <a href="/game/raft-wars-2.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/raft-wars-2.png">
-                                <div class="hover-info"><span>Raft Wars 2</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
     
@@ -7086,36 +7166,16 @@
         
             
             
-                <div class="col-4 p-0">
-                    <a href="/game/raft-wars-multiplayer.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/raft-wars-multiplayer.png">
-                                <div class="hover-info"><span>Raft Wars Multiplayer</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            
+        
+    
         
     
 
     
         
-            
             
-                <div class="col-4 p-0">
-                    <a href="/game/raft-wars.html">
-                        <div class="list-game">
-                            <div class="list-thumbnail square-thumb"><img src="/assets/img/thumbs/classroom6x/raft-wars.png">
-                                <div class="hover-info"><span>Raft Wars</span></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             
         
-    
-
     
         
     
@@ -7123,50 +7183,41 @@
     
         
     
-
-    
         
     
 
+    
+        
     
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
             
@@ -7176,15 +7227,12 @@
 
     
         
-            
-            
+    
         
     
 
     
         
-    
-
     
         
     
@@ -7192,13 +7240,19 @@
     
         
     
+        
+    
 
+    
+        
     
         
     
 
     
         
+    
+        
             
             
         
@@ -7206,16 +7260,15 @@
 
     
         
-    
-
     
         
+            
+            
+        
     
 
     
         
-    
-
     
         
             
@@ -7225,44 +7278,33 @@
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
-    
+            
+            
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7270,15 +7312,14 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
+            
+            
+        
     
         
             
@@ -7288,8 +7329,6 @@
 
     
         
-    
-
     
         
     
@@ -7297,11 +7336,1589 @@
     
         
     
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+            
+            
+        
+    
+
+    
+        
+            
+            
+        
+    
+        
+            
+            
+        
+    
 
+    
+        
     
         
     
 
+    
+        
     
         
             
@@ -7309,53 +8926,101 @@
         
     
 
+    
+        
     
         
             
             
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
     
 
+    
+        
     
+        
+            
+            
         
     
 
     
         
     
+        
+            
+            
+        
+    
 
+    
+        
+            
+            
+        
     
         
     
 
+    
+        
+            
+            
+        
     
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
     
@@ -7364,24 +9029,166 @@
         
             
             
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
             
             
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+        
+    
         
     
 
+    
+        
     
         
     
 
+    
+        
     
         
     
@@ -7389,15 +9196,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7405,65 +9208,53 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
+    
+        
     
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
-    
-
     
         
     
@@ -7471,15 +9262,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7487,93 +9274,77 @@
     
         
     
-
-    
         
     
 
+    
+        
     
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
+    
+        
     
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7581,15 +9352,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7597,15 +9364,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7613,65 +9376,53 @@
     
         
     
-
-    
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
+    
+        
     
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
-    
-
     
         
     
@@ -7679,15 +9430,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7695,15 +9442,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7711,15 +9454,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7727,77 +9466,65 @@
     
         
     
-
-    
         
     
 
+    
+        
     
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
+    
+        
     
         
     
 
     
         
-            
-            
+    
         
     
 
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7805,15 +9532,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7821,15 +9544,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7837,15 +9556,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7853,15 +9568,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7869,15 +9580,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7885,15 +9592,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7901,15 +9604,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7917,15 +9616,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7933,15 +9628,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7949,15 +9640,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7965,15 +9652,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7981,15 +9664,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -7997,15 +9676,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -8013,15 +9688,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -8029,15 +9700,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -8045,15 +9712,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -8061,15 +9724,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -8077,15 +9736,11 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
     
         
     
@@ -8093,247 +9748,188 @@
     
         
     
-
-    
         
     
 
     
         
-    
-
+            
+            
+        
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
 
     
         
-    
-
     
         
     
@@ -8362,55 +9958,50 @@
             </div>
         </div>
     </main>
-
-<!-- imran add this footer -->
-
-<footer class="mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="ft-item">
-                    <h4 class="widget-title">About Us</h4>
-                    <p>
-<a href="https://classroom6x.github.io/" target="_blank">classroom6x</a> offers a wide range of fun and engaging games that are accessible from anywhere, including schools or workplaces where gaming sites might be restricted. With easy access and no downloads required, players can enjoy their favorite games hassle-free.</p>
+   <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="ft-item">
+                        <h4 class="widget-title">About Us</h4>
+                        <p>
+    <a href="https://allcoolmathgames.github.io/" target="_blank">allcoolmathgames</a> offers a wide range of fun and engaging games that are accessible from anywhere, including schools or workplaces where gaming sites might be restricted. With easy access and no downloads required, players can enjoy their favorite games hassle-free.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="ft-item">
-                    <h4 class="widget-title">Popular games</h4>
-                    <ul style="list-style: none; padding: 0;">
-                        <li><a href="https://classroom6x.github.io/game/drive-mad.html"><span>Drive Mad</span></a></li>
-                        <li><a href="https://classroom6x.github.io/game/blumgi-rocket.html"><span>Blumgi Rocket</span></a></li>
-                        <li><a href="https://classroom6x.github.io/game/eggy-car.html"><span>Eggy Car</span></a></li>
-                    </ul>
+                <div class="col-lg-3">
+                    <div class="ft-item">
+                        <h4 class="widget-title">Popular games</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li><a href="https://allcoolmathgames.github.io/game/drive-mad.html"><span>Drive Mad</span></a></li>
+                            <li><a href="https://allcoolmathgames.github.io/game/blumgi-rocket.html"><span>Blumgi Rocket</span></a></li>
+                            <li><a href="https://allcoolmathgames.github.io/game/eggy-car.html"><span>Eggy Car</span></a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="ft-item">
-                     <h4 class="widget-title">Popular games</h4>
-                    <ul style="list-style: none; padding: 0;">
-                        <li><a href="https://classroom6x.github.io/game/1v1-lol.html"><span>1V1 LOL</span></a></li>
-                        <li><a href="https://classroom6x.github.io/game/snakes-and-ladders.html"><span>0 Snake</span></a></li>
-                        <li><a href="https://classroom6x.github.io/game/moto-x3m.html"><span>Moto X3M</span></a></li>
-                    </ul>
+                <div class="col-lg-3">
+                    <div class="ft-item">
+                         <h4 class="widget-title">Popular games</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li><a href="https://allcoolmathgames.github.io/game/1v1-lol.html"><span>1V1 LOL</span></a></li>
+                            <li><a href="https://allcoolmathgames.github.io/game/snakes-and-ladders.html"><span>0 Snake</span></a></li>
+                            <li><a href="https://allcoolmathgames.github.io/game/moto-x3m.html"><span>Moto X3M</span></a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="ft-item">
-                    <h4 class="widget-title">Pages</h4>
-                    <ul class="pages" style="padding-left: 1rem;">
-                        <li><a href="/dmca/">DMCA</a></li>
-                        <li><a href="/privacy/">Privacy Policy</a></li>
-                                                    <li><a href="/contact/">Contact</a></li>
+                <div class="col-lg-3">
+                    <div class="ft-item">
+                        <h4 class="widget-title">Pages</h4>
+                        <ul class="pages" style="padding-left: 1rem;">
+                            <li><a href="/dmca/">DMCA</a></li>
+                            <li><a href="/privacy/">Privacy Policy</a></li>
+                                                        <li><a href="/contact/">Contact</a></li>
 
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-
-
+    </footer>
 
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
