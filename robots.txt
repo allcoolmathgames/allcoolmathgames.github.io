@@ -1,2 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /cgi-bin/
+user-agent: bingbot
+Sitemap: https://allcoolmathgames.github.io/sitemap.xml
