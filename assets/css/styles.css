@@ -29,7 +29,6 @@ header {
 .search-input {
   flex: 1; /* Expands input to fill the space */
   border: none;
-  background: transparent;
   outline: none;
   color: #ffffff; /* Input text color */
   font-size: 16px; /* Font size */
