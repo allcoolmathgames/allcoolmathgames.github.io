@@ -16,31 +16,36 @@ header {
   background-color: #212234;
 }
 
-.search-bar {
+.search-container {
   display: flex;
   align-items: center;
   background-color: #2e3044; /* Dark blue background */
   border-radius: 12px; /* Rounded corners */
-  padding: 10px 16px; /* Padding inside the search bar */
-  width: 300px; /* Adjust width as needed */
-  color: #ffffff; /* Text and icon color */
-  font-size: 16px; /* Font size for text */
+  padding: 8px 12px; /* Padding inside the search bar */
+  width: 350px; /* Adjust width as needed */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.search-bar input {
+.search-input {
+  flex: 1; /* Expands input to fill the space */
   border: none;
   background: transparent;
   outline: none;
-  color: inherit; /* Inherits the text color */
-  font-size: inherit; /* Inherits the font size */
-  flex: 1; /* Expands input to fill the space */
+  color: #ffffff; /* Input text color */
+  font-size: 16px; /* Font size */
+  padding: 4px 8px; /* Padding inside the input */
 }
 
-.search-bar svg {
-  margin-right: 8px; /* Spacing between icon and text */
-  width: 20px; /* Icon size */
-  height: 20px;
+.search-button {
+  background-color: transparent; /* Transparent button background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor for button */
+  color: #ffffff; /* Button icon color */
+  font-size: 18px; /* Adjust icon size */
+}
+
+.search-button:hover {
+  color: #a6a6a6; /* Lighter color on hover */
 }
 
 @media (min-width: 992px) {
