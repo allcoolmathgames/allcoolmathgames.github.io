@@ -22,6 +22,10 @@ h2, h3 {
   scrollbar-width: thin;
 }
 
+ p {
+    font-size: 20px; /* Replace 18px with your desired font size */
+  }
+
 a {
   text-decoration: none;
   color: #FF4500;
