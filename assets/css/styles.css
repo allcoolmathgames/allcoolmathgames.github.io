@@ -1,7 +1,8 @@
 body {
-  font-family: Quicksand, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #696969;
   background-color: #000000
+  letter-spacing: 0.75px;
 }
 
 * {
@@ -62,7 +63,7 @@ header {
   padding: 5px 10px;
   flex: 1;
   color: #cacaca;
-  background: #fff;
+  
 }
 
 .search-button:hover {
@@ -206,7 +207,7 @@ ul.links {
   text-decoration: none;
   border-radius: 15px;
   border: 1px solid #ccc;
-  margin: 8px 18px 8px 0;
+  margin: 10px 8px 8px 0;
   color: #2c3e50;
 }
 
@@ -277,13 +278,14 @@ ul.hidden-links li:hover {
 /* content-home */
 
 h3.item-title {
-  font-weight: bold;
+  font-weight: bolder;
   padding-bottom: 10px;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   margin-top: 20px;
   text-transform: uppercase;
+  Color: #FF4500
 }
 
 .item-title svg, .item-title i {
@@ -583,4 +585,11 @@ h1.single-title {
 .Custom-coolmath{
 margin: 65px 0px;
 
+}
+
+.custom-heading{
+font-size: 2.5rem;
+        font-weight: bolder;
+        color: #FF4500;
+  
 }
