@@ -48,7 +48,7 @@ header {
   background: #ffffff00;
   border: none;
   outline: none;
-  color: #ffffff; /* Input text color */
+  color: #FF4500; /* Input text color */
   font-size: 22px; /* Font size */
   padding: 4px 8px; /* Padding inside the input */
 }
