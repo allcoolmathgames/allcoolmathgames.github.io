@@ -5,6 +5,17 @@ body {
   letter-spacing: 0.75px;
 }
 
+h1, {
+  color: #FF4500; /* Replace this with your desired color */
+}
+
+h2, h3 {
+  color: #FF4500; /* Replace this with your desired color */
+  font-size: 1.9rem;
+  letter-spacing: 0.75px;
+  line-height: 1.8;
+}
+
 * {
   scrollbar-width: thin;
 }
