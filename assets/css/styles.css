@@ -16,13 +16,31 @@ header {
   background-color: #212234;
 }
 
-.search-container {
+.search-bar {
   display: flex;
-  border: 1px solid #303030;
-  border-radius: 4px;
-  overflow: hidden;
-  margin-left: 10px;
-  background: #6c757d;
+  align-items: center;
+  background-color: #2e3044; /* Dark blue background */
+  border-radius: 12px; /* Rounded corners */
+  padding: 10px 16px; /* Padding inside the search bar */
+  width: 300px; /* Adjust width as needed */
+  color: #ffffff; /* Text and icon color */
+  font-size: 16px; /* Font size for text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: inherit; /* Inherits the text color */
+  font-size: inherit; /* Inherits the font size */
+  flex: 1; /* Expands input to fill the space */
+}
+
+.search-bar svg {
+  margin-right: 8px; /* Spacing between icon and text */
+  width: 20px; /* Icon size */
+  height: 20px;
 }
 
 @media (min-width: 992px) {
