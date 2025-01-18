@@ -406,7 +406,8 @@ footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #696969;
-  color: A9A9A9;
+  color: #C0C0C0;
+  font-size: 17px;
 }
 
 h4.widget-title {
