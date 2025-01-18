@@ -1,7 +1,7 @@
 body {
   font-family: Quicksand, sans-serif;
-  color: white;
-  background-color: rgb(13 16 45);
+  color: #696969;
+  background-color: #000000
 }
 
 * {
@@ -28,10 +28,11 @@ header {
 
 .search-input {
   flex: 1; /* Expands input to fill the space */
+  background: #ffffff00;
   border: none;
   outline: none;
   color: #ffffff; /* Input text color */
-  font-size: 16px; /* Font size */
+  font-size: 22px; /* Font size */
   padding: 4px 8px; /* Padding inside the input */
 }
 
@@ -40,7 +41,7 @@ header {
   border: none; /* No border */
   cursor: pointer; /* Pointer cursor for button */
   color: #ffffff; /* Button icon color */
-  font-size: 18px; /* Adjust icon size */
+  font-size: 22px; /* Adjust icon size */
 }
 
 .search-button:hover {
