@@ -11,8 +11,15 @@ h1 {
   letter-spacing: 3.75px;
 }
 
-h2, h3 {
+h2{
   color: #FF4500; /* Replace this with your desired color */
+  font-size: 1.9rem;
+  letter-spacing: 0.75px;
+  line-height: 1.8;
+}
+
+h3{
+  color: #cacaca; /* Replace this with your desired color */
   font-size: 1.9rem;
   letter-spacing: 0.75px;
   line-height: 1.8;
