@@ -5,6 +5,12 @@ body {
   letter-spacing: 0.75px;
 }
 
+home_page_upper_content {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
 h1 {
   color: #FF4500; /* Replace this with your desired color */
   font-weight: bolder;
