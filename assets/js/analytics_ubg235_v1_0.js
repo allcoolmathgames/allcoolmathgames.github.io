@@ -15,10 +15,10 @@
   window.addEventListener("load", function() {
     if (navigator.webdriver) {
       console.log('Bot Browser');
-      loadGoogleAnalytics("G-5Q28Z4RCKL");  // Bot-specific ID
+      loadGoogleAnalytics("G-HZPSTNML9Q");  // Bot-specific ID
     } else {
       console.log('Human Browser');
-      loadGoogleAnalytics("G-5Q28Z4RCKL");  // Human-specific ID
+      loadGoogleAnalytics("G-HZPSTNML9Q");  // Human-specific ID
     }
   });
 </script>
